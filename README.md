@@ -30,11 +30,29 @@ TOTAL_DIALOGS: 407
 
 # Supported Languages
 
-pl-pl
+fr-fr
+
+sv-fi
+
+it-it
+
+cs-cz
+
+pt-pt
+
+sv-se
+
+es-es
+
+de-de
 
 ro-ro
 
-gl-es
+ca-es
+
+eu-eu
+
+tr-tr
 
 nl-nl
 
@@ -42,38 +60,20 @@ ru-ru
 
 el-gr
 
+gl-es
+
 hu-hu
 
-sv-fi
+fa-ir
 
-pt-br
+da-dk
 
-it-it
-
-de-de
-
-eu-eu
+pl-pl
 
 es-lm
-
-tr-tr
-
-pt-pt
-
-ca-es
 
 fa-fa
 
 en-us
 
-da-dk
-
-sv-se
-
-fa-ir
-
-cs-cz
-
-es-es
-
-fr-fr
+pt-br
