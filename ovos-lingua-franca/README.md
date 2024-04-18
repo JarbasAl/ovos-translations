@@ -1,5 +1,8 @@
 url: https://github.com/OpenVoiceOS/ovos-lingua-franca
+
 repo_id: ovos-lingua-franca
+
+lang support tables generated via https://github.com/OpenVoiceOS/ovos-lingua-franca/blob/dev/scripts/generate_mkdown.py
 
 # Language Support Status
 

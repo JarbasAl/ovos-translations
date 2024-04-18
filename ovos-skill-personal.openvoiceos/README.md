@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-personal
+
 repo_id: ovos-skill-personal.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

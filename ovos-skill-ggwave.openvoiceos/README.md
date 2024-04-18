@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/ovos-skill-ggwave
+
 repo_id: ovos-skill-ggwave.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

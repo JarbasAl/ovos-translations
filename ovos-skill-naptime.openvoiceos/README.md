@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-naptime
+
 repo_id: ovos-skill-naptime.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

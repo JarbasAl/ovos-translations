@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-spelling
+
 repo_id: ovos-skill-spelling.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

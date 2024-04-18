@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-weather
+
 repo_id: ovos-skill-weather.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-spotify
+
 repo_id: ovos-skill-spotify.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

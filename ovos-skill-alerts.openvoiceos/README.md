@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/ovos-skill-alerts
+
 repo_id: ovos-skill-alerts.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files

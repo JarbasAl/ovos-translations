@@ -6,7 +6,6 @@ from ovos_utils.bracket_expansion import expand_options
 
 README_TEMPLATE = """
 url: {url}
-
 repo_id: {skill_id}
 
 TOTAL_STRINGS:  - string count from all resource files
@@ -69,24 +68,26 @@ def get_lang_counts(locale_f, lang="en-us"):
 
 
 def collect_locales():
+    blacklist = ["mycroft", "test"]
     clone_folder = "/tmp/ovos_clones"
     os.makedirs(clone_folder, exist_ok=True)
 
-    with open("official_skills.txt") as f:
+    with open("core_repos.txt") as f:
         for url in f.read().split("\n"):
             if not url.startswith("http"):
                 continue
             p = url.split("/")
             repo = p[-1]
             author = p[-2]
-            repo_id = f"{repo}.{author}".lower().replace("skill-ovos",
-                                                          "ovos-skill")
+            repo_id = f"{repo}.{author}".lower()
             print(url, repo_id)
 
             if not os.path.isdir(f"{clone_folder}/{repo_id}"):
                 subprocess.call(f"git clone {url} {clone_folder}/{repo_id}", shell=True)
 
             for r, _, _ in os.walk(f"{clone_folder}/{repo_id}"):
+                if any(s in r for s in blacklist):
+                    continue
                 if r.endswith("/locale"):
                     locale_f = r
                     break
@@ -96,6 +97,7 @@ def collect_locales():
             tx_base = f"{os.path.dirname(__file__)}/{repo_id}"
 
             if os.path.isdir(locale_f):
+                print(locale_f)
                 shutil.move(locale_f, tx_base)
 
             langs, n_intents, n_vocs, n_dialogs, n_total_expanded, n_total_unexpanded = get_lang_counts(f"{tx_base}/locale")

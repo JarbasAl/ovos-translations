@@ -1,5 +1,6 @@
 
 url: https://github.com/OpenVoiceOS/skill-ovos-news
+
 repo_id: ovos-skill-news.openvoiceos
 
 TOTAL_STRINGS:  - string count from all resource files
