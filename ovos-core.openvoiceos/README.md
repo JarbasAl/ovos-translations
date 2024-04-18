@@ -1,4 +1,3 @@
-
 url: https://github.com/OpenVoiceOS/ovos-core
 repo_id: ovos-core.openvoiceos
 
@@ -12,20 +11,19 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
-
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 109  
+TOTAL_STRINGS: 109
 
-TOTAL_STRINGS_EXPANDED: 467  
+TOTAL_STRINGS_EXPANDED: 467
 
-TOTAL_INTENTS: 13  
+TOTAL_INTENTS: 13
 
-TOTAL_VOCABS: 4  
+TOTAL_VOCABS: 4
 
-TOTAL_DIALOGS: 3  
+TOTAL_DIALOGS: 3
 
 # Supported Languages
 

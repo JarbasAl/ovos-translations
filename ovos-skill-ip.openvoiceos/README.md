@@ -1,4 +1,3 @@
-
 url: https://github.com/OpenVoiceOS/skill-ovos-ip
 
 repo_id: ovos-skill-ip.openvoiceos
@@ -13,20 +12,19 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
-
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 32  
+TOTAL_STRINGS: 32
 
-TOTAL_STRINGS_EXPANDED: 43  
+TOTAL_STRINGS_EXPANDED: 43
 
-TOTAL_INTENTS: 1  
+TOTAL_INTENTS: 1
 
-TOTAL_VOCABS: 4  
+TOTAL_VOCABS: 4
 
-TOTAL_DIALOGS: 7  
+TOTAL_DIALOGS: 7
 
 # Supported Languages
 

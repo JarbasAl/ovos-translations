@@ -1,4 +1,3 @@
-
 url: https://github.com/OpenVoiceOS/skill-ovos-hello-world
 
 repo_id: ovos-skill-hello-world.openvoiceos
@@ -13,20 +12,19 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
-
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 22  
+TOTAL_STRINGS: 22
 
-TOTAL_STRINGS_EXPANDED: 23  
+TOTAL_STRINGS_EXPANDED: 23
 
-TOTAL_INTENTS: 1  
+TOTAL_INTENTS: 1
 
-TOTAL_VOCABS: 2  
+TOTAL_VOCABS: 2
 
-TOTAL_DIALOGS: 3  
+TOTAL_DIALOGS: 3
 
 # Supported Languages
 

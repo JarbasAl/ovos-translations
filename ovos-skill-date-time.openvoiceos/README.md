@@ -1,4 +1,3 @@
-
 url: https://github.com/OpenVoiceOS/skill-ovos-date-time
 
 repo_id: ovos-skill-date-time.openvoiceos
@@ -13,20 +12,19 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
-
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 333  
+TOTAL_STRINGS: 333
 
-TOTAL_STRINGS_EXPANDED: 333  
+TOTAL_STRINGS_EXPANDED: 333
 
-TOTAL_INTENTS: 4  
+TOTAL_INTENTS: 4
 
-TOTAL_VOCABS: 9  
+TOTAL_VOCABS: 9
 
-TOTAL_DIALOGS: 11  
+TOTAL_DIALOGS: 11
 
 # Supported Languages
 
