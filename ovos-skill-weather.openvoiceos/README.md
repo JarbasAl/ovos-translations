@@ -1,3 +1,4 @@
+
 url: https://github.com/OpenVoiceOS/skill-ovos-weather
 
 repo_id: ovos-skill-weather.openvoiceos
@@ -12,19 +13,20 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
+
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 429
+TOTAL_STRINGS: 429  
 
-TOTAL_STRINGS_EXPANDED: 505
+TOTAL_STRINGS_EXPANDED: 505  
 
-TOTAL_INTENTS: 1
+TOTAL_INTENTS: 1  
 
-TOTAL_VOCABS: 39
+TOTAL_VOCABS: 39  
 
-TOTAL_DIALOGS: 133
+TOTAL_DIALOGS: 133  
 
 # Supported Languages
 

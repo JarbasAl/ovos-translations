@@ -1,3 +1,4 @@
+
 url: https://github.com/OpenVoiceOS/skill-ovos-fallback-unknown
 
 repo_id: ovos-skill-fallback-unknown.openvoiceos
@@ -12,19 +13,20 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
+
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 45
+TOTAL_STRINGS: 45  
 
-TOTAL_STRINGS_EXPANDED: 45
+TOTAL_STRINGS_EXPANDED: 45  
 
-TOTAL_INTENTS: 0
+TOTAL_INTENTS: 0  
 
-TOTAL_VOCABS: 3
+TOTAL_VOCABS: 3  
 
-TOTAL_DIALOGS: 4
+TOTAL_DIALOGS: 4  
 
 # Supported Languages
 

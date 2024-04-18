@@ -165,7 +165,7 @@ def collect_core():
             with open(f"{tx_base}/README.md", "w") as f:
                 f.write(README_TEMPLATE.format(skill_id=repo_id,
                                                url=url,
-                                               langs="\n".join(langs),
+                                               langs="\n\n".join(langs),
                                                n_vocs=n_vocs,
                                                n_dialogs=n_dialogs,
                                                n_total_unexpanded=n_total_unexpanded,
@@ -179,7 +179,7 @@ collect_core()
 with open(f"{os.path.dirname(__file__)}/README.md", "w") as f:
     f.write(README_TEMPLATE.format(skill_id="ovos-translations",
                                    url="https://github.com/JarbasAl/ovos-translations",
-                                   langs="\n".join(LANGS),
+                                   langs="\n\n".join(set(LANGS)),
                                    n_vocs=TOTAL_VOCS,
                                    n_dialogs=TOTAL_DIALOGS,
                                    n_total_unexpanded=TOTAL_UNEXPANDED,

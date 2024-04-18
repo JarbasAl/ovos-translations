@@ -1,3 +1,4 @@
+
 url: https://github.com/OpenVoiceOS/ovos-skill-alerts
 
 repo_id: ovos-skill-alerts.openvoiceos
@@ -12,19 +13,20 @@ TOTAL_VOCABS: - intent files for adapt engine or self.voc_match (STT keywords)
 
 TOTAL_DIALOGS: - spoken TTS responses
 
+
 # String Counts
 
 reference language: en-us
 
-TOTAL_STRINGS: 420
+TOTAL_STRINGS: 420  
 
-TOTAL_STRINGS_EXPANDED: 673
+TOTAL_STRINGS_EXPANDED: 673  
 
-TOTAL_INTENTS: 1
+TOTAL_INTENTS: 1  
 
-TOTAL_VOCABS: 43
+TOTAL_VOCABS: 43  
 
-TOTAL_DIALOGS: 116
+TOTAL_DIALOGS: 116  
 
 # Supported Languages
 
