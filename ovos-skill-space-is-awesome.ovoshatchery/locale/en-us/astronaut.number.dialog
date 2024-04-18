@@ -1,0 +1,3 @@
+there are {{number}} astronauts in orbit
+there are {{number}} astronauts in space
+currently number of astronauts in orbit is {{number}}

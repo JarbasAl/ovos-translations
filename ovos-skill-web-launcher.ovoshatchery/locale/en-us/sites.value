@@ -1,0 +1,62 @@
+# GENERAL SITES
+amazon,https://amazon.com/
+apple,https://apple.com/
+duck duck go,https://duckduckgo.com
+duckduckgo,https://duckduckgo.com
+google,https://google.com
+google maps,https://maps.google.com/
+reddit,https://reddit.com
+slash dot,https://slashdot.org
+wikipedia,https://wikipedia.org/
+
+# MUSIC AND VIDEO
+deezer,https://deezer.com/
+netflix,https://netflix.com/
+soundcloud,https://soundcloud.com/
+spotify,https://open.spotify.com/
+ted dot com,https://ted.com/
+twitch,https://twitch.tv/
+vimeo,https://vimeo.com/
+youtube,https://youtube.com/
+
+# SOCIAL MEDIA
+facebook,https://facebook.com
+instagram,https://instagram.com/
+linked in,https://linkedin.com/
+pinterest,https://pinterest.com/
+twitter,https://twitter.com
+
+# PRODUCTIVITY / WORK
+coursera,https://coursera.org/
+dropbox,https://dropbox.com/
+github,https://github.com
+gmail,https://gmail.com
+google docs,https://docs.google.com/
+google drive,https://drive.google.com/
+outlook,https://outlook.com/
+todoist,https://todoist.com/app
+
+# NEWS SITES
+bbc news,https://bbc.co.uk/
+bloomberg,https://bloomberg.com/
+buzz feed,https://buzzfeed.com/
+cnn,https://cnn.com/
+financial times,https://ft.com/
+fox news,https://foxnews.com/
+gizmodo,https://gizmodo.com/
+huffington post,https://huffingtonpost.com/
+new york times,https://nytimes.com/
+tech crunch,https://techcrunch.com/
+the guardian,https://theguardian.com/
+the verge,https://theverge.com/
+vice,https://vice.com/
+washington post,https://washingtonpost.com/
+wired,https://wired.com/
+
+# MYCROFT SITES
+mycroft chat,https://chat.mycroft.ai
+mycroft forums,https://community.mycroft.ai
+home dot mycroft dot ai,https://home.mycroft.ai
+selene,https://home.mycroft.ai
+slaney,https://home.mycroft.ai
+skills marketplace,https://market.mycroft.ai
