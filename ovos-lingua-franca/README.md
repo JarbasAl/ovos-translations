@@ -1,3 +1,6 @@
+url: https://github.com/OpenVoiceOS/ovos-lingua-franca
+repo_id: ovos-lingua-franca
+
 # Language Support Status
 
 - :heavy_check_mark: - fully implemented
@@ -25,8 +28,17 @@
 - [fa-ir](#fa)
 - [eu-eu](#eu)
 - [uk-ua](#uk)
+- [gl-es](#gl)
 
 ### az
+
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -55,6 +67,14 @@
 
 ### ca
 
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :x:                |
@@ -81,6 +101,14 @@
 | format | nice_duration       | :construction:     |
 
 ### cs
+
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :x:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -109,6 +137,14 @@
 
 ### da
 
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -135,6 +171,14 @@
 | format | nice_duration       | :construction:     |
 
 ### de
+
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -163,6 +207,14 @@
 
 ### en
 
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -189,6 +241,14 @@
 | format | nice_duration       | :construction:     |
 
 ### es
+
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :x:
+- date_time.json :x:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -217,6 +277,14 @@
 
 ### fr
 
+Resource files:
+
+- colors.json :x:
+- langs.json :heavy_check_mark:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -243,6 +311,14 @@
 | format | nice_duration       | :construction:     |
 
 ### hu
+
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -271,6 +347,14 @@
 
 ### it
 
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -297,6 +381,14 @@
 | format | nice_duration       | :construction:     |
 
 ### nl
+
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -325,6 +417,14 @@
 
 ### pl
 
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -351,6 +451,14 @@
 | format | nice_duration       | :heavy_check_mark: |
 
 ### pt
+
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :heavy_check_mark:
+- normalize.json :heavy_check_mark:
+- date_time.json :x:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -379,6 +487,14 @@
 
 ### ru
 
+Resource files:
+
+- colors.json :heavy_check_mark:
+- langs.json :x:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -405,6 +521,14 @@
 | format | nice_duration       | :heavy_check_mark: |
 
 ### sl
+
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :x:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -433,6 +557,14 @@
 
 ### sv
 
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :x:                |
@@ -459,6 +591,14 @@
 | format | nice_duration       | :construction:     |
 
 ### fa
+
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :x:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
 
 | module | method              | status             |
 |--------|---------------------|--------------------|
@@ -487,6 +627,14 @@
 
 ### eu
 
+Resource files:
+
+- colors.json :x:
+- langs.json :heavy_check_mark:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :x:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -514,6 +662,14 @@
 
 ### uk
 
+Resource files:
+
+- colors.json :x:
+- langs.json :x:
+- normalize.json :heavy_check_mark:
+- date_time.json :heavy_check_mark:
+- yes_no.json :heavy_check_mark:
+
 | module | method              | status             |
 |--------|---------------------|--------------------|
 | parse  | extract_numbers     | :heavy_check_mark: |
@@ -538,3 +694,38 @@
 | format | nice_response       | :x:                |
 | format | describe_color      | :x:                |
 | format | nice_duration       | :heavy_check_mark: |
+
+### gl
+
+Resource files:
+
+- colors.json :x:
+- langs.json :heavy_check_mark:
+- normalize.json :x:
+- date_time.json :x:
+- yes_no.json :x:
+
+| module | method              | status         |
+|--------|---------------------|----------------|
+| parse  | extract_numbers     | :x:            |
+| parse  | extract_number      | :x:            |
+| parse  | extract_duration    | :x:            |
+| parse  | extract_datetime    | :x:            |
+| parse  | extract_langcode    | :construction: |
+| parse  | normalize           | :x:            |
+| parse  | get_gender          | :x:            |
+| parse  | yes_or_no           | :x:            |
+| parse  | is_fractional       | :x:            |
+| parse  | extract_color_spans | :x:            |
+| parse  | get_color           | :x:            |
+| parse  | is_ordinal          | :x:            |
+| format | nice_number         | :x:            |
+| format | nice_time           | :x:            |
+| format | nice_date           | :x:            |
+| format | nice_date_time      | :x:            |
+| format | nice_year           | :x:            |
+| format | pronounce_number    | :x:            |
+| format | pronounce_lang      | :x:            |
+| format | nice_response       | :x:            |
+| format | describe_color      | :x:            |
+| format | nice_duration       | :x:            |
