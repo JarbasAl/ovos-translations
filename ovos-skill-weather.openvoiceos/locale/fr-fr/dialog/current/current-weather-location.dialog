@@ -1,0 +1,4 @@
+# auto translated from en-us to fr-fr
+{location} a {condition} et est actuellement à {temperature} degrés.
+Il y a actuellement {condition} et {temperature} degrés {temperature_unit} à {location}.
+En ce moment, il fait {condition} et {temperature} degré en {location}.

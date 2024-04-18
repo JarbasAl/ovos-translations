@@ -1,0 +1,3 @@
+# Informing that an the requested condition is not in the forecast
+Nein, in {location} wird {condition} für heute vorhergesagt
+Nein, für heute wird {condition} in {location} erwartet
