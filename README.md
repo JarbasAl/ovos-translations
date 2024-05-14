@@ -18,11 +18,11 @@ TOTAL_DIALOGS: - spoken TTS responses
 
 reference language: en-us
 
-TOTAL_STRINGS: 2797  
+TOTAL_STRINGS: 2827  
 
-TOTAL_STRINGS_EXPANDED: 4492  
+TOTAL_STRINGS_EXPANDED: 4544  
 
-TOTAL_INTENTS: 88  
+TOTAL_INTENTS: 100  
 
 TOTAL_VOCABS: 291  
 
@@ -30,50 +30,50 @@ TOTAL_DIALOGS: 407
 
 # Supported Languages
 
-fr-fr
+de-de
 
-sv-fi
-
-it-it
-
-cs-cz
-
-pt-pt
+pt-br
 
 sv-se
 
-es-es
-
-de-de
-
-ro-ro
-
-ca-es
-
-eu-eu
-
-tr-tr
-
-nl-nl
+cs-cz
 
 ru-ru
 
-el-gr
-
-gl-es
-
 hu-hu
-
-fa-ir
-
-da-dk
-
-pl-pl
 
 es-lm
 
-fa-fa
+tr-tr
+
+sv-fi
+
+da-dk
+
+ca-es
+
+nl-nl
+
+fa-ir
+
+ro-ro
+
+it-it
+
+eu-eu
+
+fr-fr
+
+el-gr
+
+pt-pt
+
+pl-pl
+
+es-es
 
 en-us
 
-pt-br
+gl-es
+
+fa-fa

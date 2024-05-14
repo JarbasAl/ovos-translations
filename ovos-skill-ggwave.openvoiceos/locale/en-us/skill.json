@@ -3,9 +3,7 @@
   "source": "https://github.com/OpenVoiceOS/ovos-skill-ggwave",
   "package_name": "ovos-skill-ggwave",
   "extra_plugins": {
-    "listener": [
-      "ovos-audio-transformer-plugin-ggwave"
-    ]
+    "listener": ["ovos-audio-transformer-plugin-ggwave"]
   },
   "name": "GGWave Skill",
   "description": "Voice interface for ggwave plugin.",
@@ -14,9 +12,5 @@
     "allow audio data",
     "disable audio codes"
   ],
-  "tags": [
-    "voice interface",
-    "audio plugin",
-    "ggwave"
-  ]
+  "tags": ["voice interface", "audio plugin", "ggwave"]
 }

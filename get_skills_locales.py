@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 import subprocess
@@ -173,6 +174,47 @@ def collect_core():
                                                n_intents=n_intents))
 
 
+def create_translations_json():
+    ref_lang = "en-us"
+    base = os.path.dirname(__file__)
+    for repo in os.listdir(base):
+        if not os.path.isdir(f"{base}/{repo}/locale"):
+            continue
+        for ref_lang in os.listdir(f"{base}/{repo}/locale"):
+            p= f"{base}/{repo}/locale/{ref_lang}"
+            if not os.path.isdir(p):
+                continue
+            intents = {}
+            dialogs = {}
+            vocs = {}
+            to_del = []
+            for root, folders, files in os.walk(p):
+                for f in files:
+                    if f.endswith(".intent"):
+                        with open(f"{root}/{f}") as txt:
+                            intents[f] = [ l for l in txt.read().split("\n") if l.strip() and not l.startswith("#")]
+                        to_del.append(f"{root}/{f}")
+                    elif f.endswith(".dialog"):
+                        with open(f"{root}/{f}") as txt:
+                            dialogs[f] = [ l for l in txt.read().split("\n") if l.strip() and not l.startswith("#")]
+                        to_del.append(f"{root}/{f}")
+                    elif f.endswith(".voc"):
+                        with open(f"{root}/{f}") as txt:
+                            vocs[f] = [ l for l in txt.read().split("\n") if l.strip() and not l.startswith("#")]
+                        to_del.append(f"{root}/{f}")
+            from pprint import pprint
+            pprint(intents)
+            pprint(dialogs)
+            with open(f"{base}/{repo}/locale/{ref_lang}/intents.json", "w") as f:
+                json.dump(intents, f)
+            with open(f"{base}/{repo}/locale/{ref_lang}/dialogs.json", "w") as f:
+                json.dump(dialogs, f)
+            with open(f"{base}/{repo}/locale/{ref_lang}/vocabs.json", "w") as f:
+                json.dump(vocs, f)
+            for f in to_del:
+                os.remove(f)
+
+
 collect_locales()
 collect_core()
 
@@ -185,3 +227,7 @@ with open(f"{os.path.dirname(__file__)}/README.md", "w") as f:
                                    n_total_unexpanded=TOTAL_UNEXPANDED,
                                    n_total_expanded=TOTAL_EXPANDED,
                                    n_intents=TOTAL_INTENTS))
+
+
+
+create_translations_json()

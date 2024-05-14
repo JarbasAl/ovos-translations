@@ -18,9 +18,9 @@ TOTAL_DIALOGS: - spoken TTS responses
 
 reference language: en-us
 
-TOTAL_STRINGS: 20  
+TOTAL_STRINGS: 18  
 
-TOTAL_STRINGS_EXPANDED: 20  
+TOTAL_STRINGS_EXPANDED: 31  
 
 TOTAL_INTENTS: 5  
 

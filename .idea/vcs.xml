@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-application-launcher.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-ddg.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-dictation.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-easter-eggs.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-fallback-chatgpt.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-icanhazdadjokes.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-laugh.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-moviemaster.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-parrot.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-randomness.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-volume.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-wallpapers.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-wikipedia.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-wolfie.openvoiceos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ovos-skill-wordnet.openvoiceos" vcs="Git" />
+  </component>
+</project>
