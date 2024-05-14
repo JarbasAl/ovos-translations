@@ -1,0 +1,14 @@
+{
+  "cant.play.dialog": [
+    null,
+    null
+  ],
+  "play.what.dialog": [
+    null
+  ],
+  "just.one.moment.dialog": [
+    "Dóna'm un moment",
+    "Només un moment",
+    null
+  ]
+}
